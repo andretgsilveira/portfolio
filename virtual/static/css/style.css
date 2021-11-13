@@ -1,0 +1,64 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.header { 
+  color: whitesmoke;
+  background-color: rgb(32, 32, 32);
+  height: 60px;
+  
+}
+.header h1 { 
+  position: absolute;
+  margin: 20px 4vw;
+}
+
+.header ul {
+  width: 40vw;
+  margin-left: auto;
+  text-align: right;
+  height: 100%;
+}
+
+.header a {
+  color: whitesmoke;
+  display: inline-block;
+  margin: 20px 5px;
+  text-decoration: none;
+
+}
+
+.perfil {
+  position: absolute;
+  width: 225px;
+  margin: 0 3%;
+  top: 30px;
+  text-align: center;
+}
+
+.image-perfil {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.info-perfil li {
+  margin: 2px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 50px 0 300px;
+}
+
+.about {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.about > h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
